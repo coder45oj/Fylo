@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+    box-sizing: border-box;
+}
+
+/* firstpage */
+nav{
+    display: flex;
+    width: 100%;
+    padding: 4rem 6rem 0;
+}
+
+.headspace{
+    width: 10.5em;
+    height: 3em;
+}
+
+ul{
+    margin: 0 auto;
+    padding-left: 30rem;
+    padding-top: 1rem;
+}
+
+li{
+    display:inline;
+    padding-left: 2em;
+}
+
+.firstpage{
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    padding-left: 6rem;
+    padding-top: 8em;
+/* bottom curve */
+    background-image: url(../components/images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+#firstpagetext > h1{
+    height: 50%;
+    width: 50vw;
+    font-size: 2em;
+    padding-bottom: 3em;
+}
+
+/* image */
+.illustration-1{
+    width: 42vw;
+    height: 65vh;
+    margin-top: -8rem;
+}
+
+#top-text{
+    font-size: 1.2em;
+    margin-top: -3em;
+    font-weight: 450;
+}
+
+#entermail{
+    width: 30.5em;
+    height: 3.2em;
+    border-radius: 3px;
+    margin-top: 2em;
+    border: 1px solid #070439;
+    padding-left: 1em;
+}
+
+
+#getstarted{
+    padding: 1.2em 4em;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(25, 96, 202);
+    border-radius: 3px;
+    border: none;
+}
+
+/* second page */
+main{
+    height: 90vh;
+    background-color:#f8f8fe;
+    display: flex;
+    padding-left: 6rem;
+    padding-top: 4em;
+}
+
+/* picture in main*/
+.illustration-2{
+    width: 45vw;
+    height: 65vh;
+}
+
+
+/* text in main */
+.maintext-header{
+    font-size: 2em;
+}
+
+.maintext-body{
+    font-size: 1.1em;
+    padding-top: 2em;
+    font-weight: 450;
+}
+
+.work-link{
+    padding-top: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+.work-link > a{
+    color: #5EB1A4;
+    font-size: large;
+    font-weight: 450;
+    
+}
+/* card */
+.card{
+    padding-top: 1em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em lightgrey;
+    border-radius: 2px;
+    width: 25em;
+    height: 15em;
+}
+
+.cardtext{
+    font-size: 0.9em;
+    font-weight: 600;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    line-height: 1.8em;
+}
+
+/* cardimage */
+.ceo-profile{
+    display: flex;
+}
+.kyle-image{
+    border-radius: 100%;
+    width: 3.2em;
+}
+
+.passport-text{
+    padding-left: 0.8em;
+}
+.kyle{
+    font-weight: 700;
+    padding-bottom: 0.5em;
+}
+.title{
+    font-size: 1em;
+    font-weight: 500;
+}
+
+/* 3rd page */
+.author-summary{
+    background-color: #585989;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author1{
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 20em;
+    height: 13em;
+}
+
+.author2{
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 20em;
+    height: 13em;
+    margin: 0 5em 0;
+}
+
+.author3{
+    padding-top: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 2em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 20em;
+    height: 13em;
+}
+
+.author-title{
+    padding-bottom: 0.5em;
+    color: lightseagreen;
+}
+.author-name{
+    text-align: right;
+    font-style: italic;
+    margin-top: 2em;
+    margin-right: 1rem;
+}
+
+/* footer */
+
+footer{
+    background-color: #070439;
+    height: 100vh;
+    display: flex;
+    color: white;
+    font-size: large;
+    font-weight: 450;
+    padding-left: 6rem;
+    padding-top: 6rem;
+}
+
+.footer-logo{
+    line-height: 3rem;
+}
+
+.about{
+    padding: 4.5rem 5rem 0;
+    line-height: 3rem;
+}
+
+.career{
+    padding: 4.5rem 10rem 0;
+    line-height: 3rem;
+}
+
+
+/* mobile responsive design */
+@media only screen and (max-width: 1000px){
+    nav{
+        flex-direction: column;
+        padding:0;
+        margin-top: 3rem;
+    }
+
+    .headspace{
+        margin: auto;
+    }
+
+    ul{
+        padding-top: 1rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .firstpage{
+        flex-direction: column;
+        width: 100vw;
+        height: 110vh;
+        padding-left: 0;
+        padding-top: 0;
+        margin-top: 2rem;
+    /* bottom curve */
+        background-image: url(../components/images/bg-curve-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: contain;
+        align-items: center;
+    }
+    
+    #firstpagetext{
+        font-size: 1rem;
+        padding-bottom: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    #firstpagetext > h1{
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 0;
+        font-size: 1.3em;
+    }
+
+    #top-text{
+        font-size: 1.5em;
+        margin-top: 0.6em;
+        font-weight: 450;
+        font-size: 0.8em;
+    }
+
+    #entermail{
+        width: 100vw;
+        height: 3.2em;
+        border-radius: 3px;
+        margin-top: 2em;
+        border: 1px solid #48448d;
+        padding-left: 0em;
+        text-align: center;
+    }
+    
+    
+    #getstarted{
+        padding: 1em 3em;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(25, 96, 202);
+        border-radius: 2px;
+        border: none;
+    }
+
+    .firstimage{
+        margin-top: 11rem;
+    }
+    .illustration-1{
+        width: 75vw;
+        height: 40vh;
+    }
+
+        /* second page */
+    main{
+        height: 130vh;
+        background-color:#f8f8fe;
+        display: flex;
+        padding-left: 0;
+        padding-top: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* text in main */
+.maintext-header{
+    font-size: 1.3em;
+
+}
+
+.maintext-body{
+    font-size: 0.9em;
+    padding-top: 0em;
+    font-weight: 450;
+    margin-top: 1em;
+}
+
+.work-link{
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 1em;
+}
+
+.work-link > a{
+    color: #5EB1A4;
+    font-size: large;
+    font-weight: 450;
+    
+}
+/* card */
+.card{
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-bottom: 0;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em lightgrey;
+    border-radius: 2px;
+    width: 20em;
+    height: 12em;
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+
+
+.cardtext{
+    font-size: 0.7em;
+    font-weight: 600;
+    padding-bottom: 0em;
+    padding-top: 0em;
+    line-height: 1.8em;
+    margin-top: 1em;
+}
+
+/* cardimage */
+.ceo-profile{
+    display: flex;
+    margin-top: 1em;
+}
+.kyle-image{
+    border-radius: 100%;
+    width: 2.5em;
+    align-content: center; 
+}
+
+.passport-text{
+    padding-left: 0.8em;
+}
+.kyle{
+    font-weight: 700;
+    padding-bottom: 0.2em;
+    margin-top: 0.5em;
+    font-size: 0.8em;
+}
+.title{
+    font-size: 0.5em;
+    font-weight: 500;
+}
+
+
+    /* picture in main*/
+    .illustration-2{
+        width: 70vw;
+        height: 40vh;
+        margin-top: 2em;
+    }
+
+    /* 3rd page */
+.author-summary{
+    background-color: #585989;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.author1{
+    padding: 1em 1em 0;
+    padding-bottom: 0em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 10em;
+    height: 20em;
+}
+
+.author2{
+    padding: 1em 1em 0;
+    padding-bottom: 0em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 10em;
+    height: 20em;
+    margin: 0 0 0;
+}
+
+.author3{
+    padding: 1em 1em 0;
+    padding-bottom: 0em;
+    border:grey thin ;
+    background-color: white;
+    box-shadow:0.1em 0.1em 0.3em 0.1em darkslateblue;
+    border-radius: 2px;
+    width: 10em;
+    height: 20em;
+}
+
+.author-title{
+    padding-bottom: 0.5em;
+    color: lightseagreen;
+}
+.author-name{
+    text-align: right;
+    font-style: italic;
+    margin-top: 2em;
+    margin-right: 1rem;
+}
+
+/* footer */
+
+footer{
+    background-color: #070439;
+    height: 150vh;
+    display: flex;
+    color: white;
+    font-size: large;
+    font-weight: 450;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo{
+    line-height: 3rem;
+}
+
+.about{
+    padding: 0;
+    line-height: 3rem;
+}
+
+.career{
+    padding: 0;
+    line-height: 3rem;
+    margin-right: 1em;
+}
+
+
+}
+   
+
+
+
+
+
+
+  
