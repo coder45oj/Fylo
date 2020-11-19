@@ -16,9 +16,20 @@ const Footer = () => {
             <p>Career<br/>Terms<br/>Privacy</p>
         </div>
 
-        <i className = "fab fa-facebook"></i>
-        <i className = "fab fa-twitter"></i>
-        <i className = "fab fa-instagram"></i>
+        <span className= "fa-stack fa-lg">
+            <i className="fa fa-facebook fa-stack-1x" aria-hidden="true"></i>
+            <i className="fa fa-circle-thin  fa-stack-2x" aria-hidden="true"></i>
+        </span>
+
+        <span className = "fa-stack fa-lg">
+            <i className="fa fa-twitter fa-stack-1x" aria-hidden="true"></i>
+            <i className="fa fa-circle-thin  fa-stack-2x" aria-hidden="true"></i>
+        </span>
+
+        <span className = "fa-stack fa-lg">
+            <i className="fa fa-instagram fa-stack-1x" aria-hidden="true"></i>
+            <i className="fa fa-circle-thin  fa-stack-2x" aria-hidden="true"></i>
+        </span>
 
     </footer>
     )
